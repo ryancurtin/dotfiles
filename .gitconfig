@@ -1,0 +1,20 @@
+[user]
+	name = Ryan Curtin
+	email = ryan.curtin@spongecell.com
+[alias]
+  a = add
+  co = checkout
+  b = branch --color --verbose
+  cp = cherry-pick
+  s = status
+  l = log --pretty=oneline -n 20 --graph --color
+[color "branch"]
+  current = magenta
+  local = cyan
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+
