@@ -16,10 +16,9 @@ export PKG_CONFIG_PATH="/opt/local/lib/pkgconfig:$PKG_CONFIG_PATH"
 export RAILS_LOG=true
 export ES_USE_RAILS_LOG=false
 export ES_PRETTY_PRINT=true
-export USE_DELAYED_JOB=true
 export STOCK_CHART=false
 export MEMCACHED=false
-export PATH=/usr/local/share/npm/bin:$PATH
+export PATH=/usr/local/share/npm/bin:$PATH:/Applications/Postgres93.app/Contents/MacOS/bin
 
 # Utilities
 export GREP_COLOR='1;37;41'
