@@ -1,6 +1,10 @@
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
 [user]
 	name = Ryan Curtin
-	email = ryan.curtin@spongecell.com
+	email = rcurtin88@gmail.com
 [alias]
   a = add
   co = checkout
@@ -18,3 +22,14 @@
   old = red bold
   new = green bold
 
+
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[core]
+	editor = subl -n -w
